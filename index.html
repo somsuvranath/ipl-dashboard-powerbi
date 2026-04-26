@@ -1,0 +1,174 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL (2008-2024) Analysis Dashboard | Power BI Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .dashboard-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .dashboard-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .info-section {
+            padding: 30px;
+            background: #f8f9fa;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .info-card h3 {
+            color: #1a1a2e;
+            margin-bottom: 15px;
+            border-left: 4px solid #764ba2;
+            padding-left: 12px;
+        }
+        
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .tech-tag {
+            background: #e9ecef;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #495057;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #1a1a2e;
+            color: white;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.8rem; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏏 IPL (2008-2024) Analysis Dashboard</h1>
+            <p>Interactive Power BI Dashboard | Tournament Winner: Kolkata Knight Riders</p>
+        </div>
+        
+        <div class="dashboard-container">
+            <!-- REPLACE THIS SRC WITH YOUR POWER BI EMBED URL -->
+            <iframe src="YOUR_POWER_BI_EMBED_URL_HERE"></iframe>
+        </div>
+        
+        <div class="info-section">
+            <h2>📊 Dashboard Insights</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>🏆 Key Metrics</h3>
+                    <ul style="margin-left: 20px; line-height: 1.8;">
+                        <li><strong>Winner:</strong> Kolkata Knight Riders</li>
+                        <li><strong>Orange Cap:</strong> V Kohli (741 Runs)</li>
+                        <li><strong>Purple Cap:</strong> JJ Bumrah (30 Wickets)</li>
+                        <li><strong>Most POTM:</strong> Abhishek Sharma</li>
+                        <li><strong>Total Runs:</strong> 25,971</li>
+                        <li><strong>Total Wickets:</strong> 883</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>🛠️ Tools & Technologies</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Power BI Desktop</span>
+                        <span class="tech-tag">DAX</span>
+                        <span class="tech-tag">Power Query</span>
+                        <span class="tech-tag">Data Modeling</span>
+                        <span class="tech-tag">Interactive Dashboards</span>
+                        <span class="tech-tag">GitHub Pages</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <h3>📈 Interactive Features</h3>
+                    <ul style="margin-left: 20px; line-height: 1.8;">
+                        <li>Filter by player stats</li>
+                        <li>Toss decision analysis</li>
+                        <li>Top performers leaderboard</li>
+                        <li>Team-wise comparison</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>📅 IPL 2024 Season | Created with Power BI | Live Dashboard</p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">🔗 Data Source: Official IPL Stats</p>
+        </div>
+    </div>
+</body>
+</html>
