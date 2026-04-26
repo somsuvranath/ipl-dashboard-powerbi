@@ -6,7 +6,7 @@
 
 ## 🎯 Live Interactive Dashboard
 
-> **🔗 Click here to view the live dashboard:** https://somsuvranath.github.io/ipl-dashboard-powerbi/
+> **🔗 Click here to view the live dashboard:** https://app.powerbi.com/view?r=eyJrIjoiOWVhMGJkNGMtYmRiZi00MmNlLTgxZjEtYTViN2MzZGEwMGY1IiwidCI6IjdiYTdhM2JkLTc2MzYtNGY1ZC04MTFmLTYxNzExNWViMDBhMiJ9
 
 ![Dashboard Preview](./assets/IPL_Dashboard_Preview.png)
 
