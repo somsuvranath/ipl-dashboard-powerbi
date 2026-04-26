@@ -45,7 +45,7 @@ Champions	Kolkata Knight Riders won 11 matches (6 by runs, 5 by wickets)
 - **GitHub Pages** - Hosting the live dashboard
 
 ### Data Processing Steps
-1. **Extract** - Gathered IPL 2024 match and player statistics
+1. **Extract** - Gathered IPL (2008-2024) match and player statistics
 2. **Transform** - Cleaned data using Power Query (handled missing values, created calculated columns)
 3. **Load** - Built relational data model with fact and dimension tables
 4. **Visualize** - Created interactive report with slicers, bookmarks, and drill-through pages
