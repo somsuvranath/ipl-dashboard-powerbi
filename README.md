@@ -1,4 +1,4 @@
-# 🏏 IPL 2024 Analysis Dashboard
+# 🏏 IPL (2008-2024) Analysis Dashboard
 
 [![Live Demo](https://img.shields.io/badge/Live-Dashboard-brightgreen)](https://YOUR_USERNAME.github.io/ipl-powerbi-dashboard/)
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black)](https://powerbi.microsoft.com/)
