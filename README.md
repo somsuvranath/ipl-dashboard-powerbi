@@ -77,7 +77,8 @@ Power BI | DAX | Power Query
 
 Due to GitHub file size limitations, the full IPL dataset is not included in this repository.
 
-- 🔹 Full dataset: https://drive.google.com/file/d/1XO1N6YEh34wfmaBtAxJAc9nRxE0B4RrB/view?usp=sharing
+- 🔹 Full dataset: https://drive.google.com/file/d/1XO1N6YEh34wfmaBtAxJAc9nRxE0B4RrB/view?usp=sharing (for deliveries)
+                   https://drive.google.com/file/d/1PVwiHofsOJ05b2BgMULo2LBCIdE1XIGg/view?usp=sharing  (for matches)
 
 * Visual outputs
 
