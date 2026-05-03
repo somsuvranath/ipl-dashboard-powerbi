@@ -73,7 +73,6 @@ Power BI | DAX | Power Query
 
 * Power BI dashboard file
 * Dataset
-## 📁 Dataset
 
 Due to GitHub file size limitations, the full IPL dataset is not included in this repository.
 
